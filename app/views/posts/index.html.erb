@@ -1,0 +1,16 @@
+<% @posts.each do |post| %>
+  <div class="ranking">
+    <div class="rank">
+      <%= post.rank %>
+    </div>
+    <div class="score">
+      <%= post.score %>
+    </div>
+    <div class="user_name">
+      <%= post.user_id %>
+    </div>
+    <div class="date">
+      <%= post.created_at %>
+    </div>
+  </div>
+<% end %>
