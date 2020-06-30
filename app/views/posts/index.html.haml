@@ -1,0 +1,11 @@
+- @posts.each do |post|
+  .ranking
+    .rank
+      = post.rank
+    .score
+      = post.score
+    .user_name
+      = post.user_id
+    .date
+      = post.created_at
+= link_to "Start", '/posts/new', class: "start__btn"
