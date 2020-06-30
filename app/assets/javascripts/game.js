@@ -291,7 +291,7 @@ phina.define('Paddle', {
 /*
  * コンボラベル
  */
-phina.define('ComboLabel'. {
+phina.define('ComboLabel', {
   superClass: 'Label',
   init: function(num) {
     this.superInit(num + 'combo!');
